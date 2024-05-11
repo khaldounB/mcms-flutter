@@ -15,12 +15,12 @@ KKeys keys = KKeys();
 
 /// Screen size methods
 double height(double newHeight) {
-  double finalHeight = (newHeight * 100) / 812;
+  double finalHeight = (newHeight * 100) / 896;
   return finalHeight.h;
 }
 
 double width(double newWidth) {
-  double finalWidth = (newWidth * 100) / 375;
+  double finalWidth = (newWidth * 100) / 414;
   return finalWidth.w;
 }
 
