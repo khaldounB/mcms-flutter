@@ -50,6 +50,7 @@ dependencies:
 
   # Flutter SVG
   flutter_svg: ^2.0.10+1
+  firebase_core: ^2.31.0
 
 
 dev_dependencies:
