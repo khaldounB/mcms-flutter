@@ -8,5 +8,9 @@ class KKeys {
   KKeys._internal();
 
   String token = 'token';
-  String language = 'language';
+  String fullName = 'fullName';
+  String email = 'email';
+  String phone = 'phone';
+  String isManager = 'is-manager';
+  String dateOfBirth = 'date-of-birth';
 }
