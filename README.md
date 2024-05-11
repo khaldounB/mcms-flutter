@@ -1,3 +1,2 @@
 # Run Application:
-    1- flutter pub get
-    2- dart run build_runner build
+    # flutter pub get & dart run build_runner build
