@@ -11,8 +11,6 @@ import 'package:path_provider/path_provider.dart';
 // Project imports:
 import '../../constants/server/caching_service.dart';
 import '../../utils/routes/router.dart';
-import '../database/database_configuration.dart';
-import '../database/database_queries.dart';
 
 final GetIt getIt = GetIt.instance;
 
@@ -23,6 +21,4 @@ Future<void> singletone()async{
   final box = Hive.box('myBox');
   getIt.registerLazySingleton(() => CachingServices(box));
   getIt.registerLazySingleton(() => AppRouter());
-  getIt.registerLazySingleton(() => ConfigurationDatabase());
-  getIt.registerLazySingleton(() => DatabaseQueries());
 }

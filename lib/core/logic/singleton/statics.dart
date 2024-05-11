@@ -6,13 +6,9 @@ import 'package:sizer/sizer.dart';
 import '../../constants/material_desgin/k_keys.dart';
 import '../../constants/server/caching_service.dart';
 import '../../utils/routes/router.dart';
-import '../database/database_configuration.dart';
-import '../database/database_queries.dart';
 
 CachingServices box = GetIt.instance.get<CachingServices>();
 AppRouter router = GetIt.instance.get<AppRouter>();
-ConfigurationDatabase database = GetIt.instance.get<ConfigurationDatabase>();
-DatabaseQueries query = GetIt.instance.get<DatabaseQueries>();
 KKeys keys = KKeys();
 
 
